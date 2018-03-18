@@ -1,0 +1,113 @@
+	@font-face {
+
+	font-family: NixieOne;
+	src: url(NixieOne.ttf);
+
+}
+
+	.NazwaFirmy {
+		font-family: NixieOne;
+		font-size: 200px;
+		text-align: center;
+		background:#330033;
+		color:#ffffff;
+		border-bottom:10px solid #161712;
+		border-bottom-right-radius: 20px;
+		border-bottom-left-radius: 20px;
+	}
+	
+	.logo {
+		width: 200px;
+		height: 200px;
+		margin-top: -225px;
+		margin-left: 10px;
+		border-radius: 20px;
+		border: 3px solid white;
+	}
+	
+
+	* {
+			margin: 0;
+			padding: 0;
+		}
+		body {
+			font: 100% normal Arial, Helvetica, sans-serif;
+			background: #E6E6E1;
+		}
+		form, input, select, textarea {
+			margin:0;
+			padding:0;
+			color:#ffffff;
+		}
+ 
+		div.box {
+			margin:150px auto;
+			width:500px;
+			background:#330033;
+			position:relative;
+			top:50px;
+			border:1px solid #262626;
+		}
+ 
+		div.box h1 {
+			font-family: NixieOne;
+			color:#ffffff;
+			font-size:18px;
+			text-transform:uppercase;
+			padding:5px 0 5px 15px;
+			border-bottom:1px solid #161712;
+			border-top:1px solid #161712;
+		}
+ 
+		div.box label {
+			width:100%;
+			display: block;
+			background:#333366;
+			border-top:1px solid #262626;
+			border-bottom:1px solid #161712;
+			padding:10px 0 10px 0;
+		}
+ 
+		div.box label span {
+			display: block;
+			color:#bbbbbb;
+			font-size:12px;
+			float:left;
+			width:100px;
+			text-align:right;
+			padding:5px 20px 0 0;
+		}
+ 
+		div.box .wpis {
+			padding:10px 10px;
+			width:200px;
+			background:#262626;
+			border-bottom: 1px double #171717;
+			border-top: 1px double #171717;
+			border-left:1px double #333333;
+			border-right:1px double #333333;
+		}
+ 
+		
+ 
+		div.box .button	{
+			margin:0 0 10px 0;
+			padding:4px 7px;
+			background:#CC0000;
+			border:0px;
+			position: relative;
+			top:10px;
+			left:50px;
+			width:100px;
+			border-bottom: 1px double #660000;
+			border-top: 1px double #660000;
+			border-left:1px double #FF0033;
+			border-right:1px double #FF0033;
+		}
+		
+		a {
+			text-decoration: none;
+			color: white;
+		}
+		
+		

@@ -1,0 +1,67 @@
+@font-face {
+
+	font-family: NixieOne;
+	src: url(NixieOne.ttf);
+
+}
+
+@font-face {
+
+	font-family: AHAMONO-Regular;
+	src: url(AHAMONO-Regular.otf);
+
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #E6E6E1;
+}
+
+.NazwaFirmy {
+	font-family: NixieOne;
+	font-size: 200px;
+	text-align: center;
+	background:#330033;
+	color:#ffffff;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	position: relative;
+	z-index: 10;
+	}
+	
+.CzarneTlo {
+	height: 210px;
+	background-color: black;
+	margin-top: -200px;
+	position: relative;
+	z-index: 9;
+}
+	
+	
+.logo {
+	width: 200px;
+	height: 200px;
+	margin-top: -225px;
+	margin-left: 10px;
+	border-radius: 20px;
+	border: 3px solid white;
+	position: relative;
+	z-index: 11;
+}
+
+.Komunikat {
+	font-family: AHAMONO-Regular;
+	font-size: 60px;
+	text-align: center;
+	color: black;
+	padding-top: 4%;
+}
+
+.ikony {
+	width: 300px;
+	height: 300px;
+	margin-left: 40%;
+	margin-top: 5%;
+
+}
